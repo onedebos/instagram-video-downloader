@@ -14,10 +14,6 @@ A React app to download user videos from instagram.
 
 ![video-demo](./ig_downloader_demo.gif)
 
-## Back-end Repo
-
-[Front end git repo](https://github.com/onedebos/owonikoko)
-
 ## Getting Started
 
 **To get started, follow the instructions below**
