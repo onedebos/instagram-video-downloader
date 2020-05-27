@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: Metropolis;
+  text-align: center;
+}
+
+.headers {
+  margin-top: 10vh;
+}
+
+.headers h1 {
+  margin-bottom: 0;
+}
+
+.inputBar {
+  width: 40vw;
+  margin-top: 1%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.inputBar:focus {
+  border: 2px solid #0060df;
+}
+
+.getVideoBtn {
+  margin-top: 1%;
+  border: none;
+  padding: 10px;
+  width: 15vw;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  background-color: #0060df;
+  cursor: pointer;
+}
+
+.videoBox {
+  width: 40%;
+}
+
+.errorDiv {
+  background-color: pink;
+  padding: 5px;
+  font-weight: 500;
+  margin: 0.5em auto;
+}
+
+.errorWrapper {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.saveInstruction {
+  margin-top: 2vh;
+  background-color: #fef8f3;
+  padding: 5px;
+}
+
+.saveInstructionWrapper {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.spinner {
+  animation: rotate 2s linear infinite;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  width: 50px;
+  height: 50px;
+
+  & .path {
+    stroke: #0060df;
+    stroke-linecap: round;
+    animation: dash 1.5s ease-in-out infinite;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
