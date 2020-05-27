@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <div className="headers">
-        <h1>Download any video from instagram</h1>
+        <h1>Download any video from Instagram</h1>
         <p>Copy the instagram video URL and paste it below</p>
       </div>
       {error ? (
