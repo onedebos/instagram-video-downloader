@@ -20,7 +20,7 @@ A React app to download user videos from instagram.
 
 To get a local copy up and running follow these simple example steps.
 
-- You will need the backend repo. I am not making this open source at this time.
+- Setup and run the API(see the api folder)
 
 For the frontend:
 
